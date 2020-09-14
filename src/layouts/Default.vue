@@ -3,7 +3,6 @@
     <v-navigation-drawer
       v-model="drawer"
       app
-      class="custom-bkg"
     >
       <v-list>
         <v-list-item link to="/home">

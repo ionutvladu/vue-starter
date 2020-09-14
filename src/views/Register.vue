@@ -37,7 +37,7 @@
                 type="password"
                 name="confirmPassword"
                 :rules="confirmPasswordRules"
-                :label="passwordLabel"
+                :label="confirmPasswordLabel"
                 @keydown.enter="submit"
                 single-line
                 outlined
@@ -68,6 +68,7 @@ export default {
       emailLabel: 'Email',
       emailPlaceholder: 'Enter your email',
       passwordLabel: 'Password',
+      confirmPasswordLabel: 'Confirm Password',
       passwordPlaceholder: 'Enter your password',
       submitButonText: 'Register',
 

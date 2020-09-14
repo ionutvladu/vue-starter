@@ -117,7 +117,7 @@
 .v-navigation-drawer {
   max-height: initial !important;
   box-shadow: 10px 0 30px rgba(0,0,0,.16);
-
+  background-image: linear-gradient($brand-background-primary, rgba($brand-background-primary,0.8)) !important;
   .v-list {
     .v-list-item--active {
       color: $brand-secondary !important;
