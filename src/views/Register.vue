@@ -1,44 +1,55 @@
 <template>
   <v-container>
-    <v-form v-model="valid" ref="form">
-      <h2>Register Form</h2>
-      <v-text-field
-        v-model="email"
-        :validate-on-blur="validateOnBlur"
-        name="email"
-        :rules="emailValidationRules"
-        :label="emailLabel"
-        @keyup.enter="submit"
-        outlined
-        required
-      ></v-text-field>
+    <div class="login-register-box">
+      <h2 class="title">Register Form</h2>
+      <v-row>
+        <v-col>
+          <v-container>
+            <v-form v-model="valid" ref="form">
+              <v-text-field
+                v-model="email"
+                :validate-on-blur="validateOnBlur"
+                name="email"
+                :rules="emailValidationRules"
+                :label="emailLabel"
+                @keyup.enter="submit"
+                single-line
+                outlined
+                required
+              ></v-text-field>
 
-      <v-text-field
-        v-model="password"
-        :validate-on-blur="validateOnBlur"
-        type="password"
-        name="password"
-        :rules="passwordValidationRules"
-        :label="passwordLabel"
-        @keydown.enter="submit"
-        outlined
-        required
-      ></v-text-field>
+              <v-text-field
+                v-model="password"
+                :validate-on-blur="validateOnBlur"
+                type="password"
+                name="password"
+                :rules="passwordValidationRules"
+                :label="passwordLabel"
+                @keydown.enter="submit"
+                single-line
+                outlined
+                required
+              ></v-text-field>
 
-      <v-text-field
-        v-model="confirmPassword"
-        :validate-on-blur="validateOnBlur"
-        type="password"
-        name="confirmPassword"
-        :rules="confirmPasswordRules"
-        :label="passwordLabel"
-        @keydown.enter="submit"
-        outlined
-        required
-      ></v-text-field>
-      <v-alert type="error" v-if="error">{{error}}</v-alert>
-      <v-btn color="success" class="mdx-cta" @click="submit" value="submit">{{ submitButonText }}</v-btn>
-    </v-form>
+              <v-text-field
+                v-model="confirmPassword"
+                :validate-on-blur="validateOnBlur"
+                type="password"
+                name="confirmPassword"
+                :rules="confirmPasswordRules"
+                :label="passwordLabel"
+                @keydown.enter="submit"
+                single-line
+                outlined
+                required
+              ></v-text-field>
+              <v-alert type="error" v-if="error">{{error}}</v-alert>
+              <v-btn class="mdx-cta" @click="submit" value="submit">{{ submitButonText }}</v-btn>
+            </v-form>
+          </v-container>
+        </v-col>
+      </v-row>
+    </div>
   </v-container>
 </template>
 

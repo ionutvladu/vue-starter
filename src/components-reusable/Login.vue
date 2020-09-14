@@ -1,9 +1,6 @@
 <template>
   <v-container>
-    <v-form
-      v-model="valid"
-      ref="form"
-    >
+    <v-form v-model="valid" ref="form">
       <v-text-field
         v-model="email"
         :validate-on-blur="validateOnBlur"
@@ -11,6 +8,7 @@
         :rules="emailValidationRules"
         :label="emailLabel"
         @keyup.enter="submit"
+        single-line
         outlined
         required
       ></v-text-field>
@@ -23,6 +21,7 @@
         :rules="passwordValidationRules"
         :label="passwordLabel"
         @keydown.enter="submit"
+        single-line
         outlined
         required
       ></v-text-field>
@@ -33,7 +32,6 @@
       ></v-checkbox>
 
       <v-btn
-        color="success"
         class="mdx-cta"
         @click="submit"
         value="submit"
