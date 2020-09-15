@@ -7,7 +7,7 @@
       <v-list>
         <v-list-item link to="/home">
           <v-list-item-action>
-            <v-icon>fal fa-home-alt</v-icon>
+            <v-icon>fas fa-home</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Home</v-list-item-title>
@@ -15,7 +15,7 @@
         </v-list-item>
         <v-list-item link  to="/charts">
           <v-list-item-action>
-            <v-icon>fal fa-chart-bar</v-icon>
+            <v-icon>fas fa-chart-bar</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Charts</v-list-item-title>
@@ -23,7 +23,7 @@
         </v-list-item>
         <v-list-item link  to="/lists">
           <v-list-item-action>
-            <v-icon>fal fa-list-alt</v-icon>
+            <v-icon>fas fa-list-alt</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Lists</v-list-item-title>
@@ -31,7 +31,7 @@
         </v-list-item>
         <v-list-item link to="/about">
           <v-list-item-action>
-            <v-icon>fal fa-info-square</v-icon>
+            <v-icon>fas fa-info-circle</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>About</v-list-item-title>
@@ -39,7 +39,7 @@
         </v-list-item>
         <v-list-item link @click="logout">
           <v-list-item-action>
-            <v-icon>fal fa-sign-out-alt</v-icon>
+            <v-icon>fas fa-sign-out-alt</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Logout</v-list-item-title>

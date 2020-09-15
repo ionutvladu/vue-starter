@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib'
-import '@fortawesome/fontawesome-pro/css/all.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 const MDX_ICONS = {
   complete: 'fas fa-check',

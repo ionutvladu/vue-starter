@@ -16,5 +16,5 @@ export default {
 
 <style lang="scss">
 // import global scss
-@import '../src/styles/style.scss';
+@import './styles/style.scss';
 </style>
