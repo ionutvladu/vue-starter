@@ -1,0 +1,47 @@
+// light theme variables could be found here: https://github.com/vuetifyjs/vuetify/blob/master/packages/vuetify/src/styles/settings/_light.scss
+// variable api's available: https://vuetifyjs.com/en/customization/sass-variables/#variable-api
+// Example variable file: https://vuetifyjs.com/en/customization/sass-variables/#example-variable-file
+
+// Globals
+$font-size-root: 16px;
+$border-radius-root: 8px;
+
+// Default project colors to be used
+
+$brand-primary: #FAFAFA;
+$brand-secondary: #BDBDBD;
+$brand-text: #263238;
+$brand-background-primary: #3c0668;
+$brand-background-secondary: #FAFAFA;
+
+// inputs
+$inputboxshadow: 0 25px 50px rgba(0, 0, 0, 0.05);
+$inputborder: 1px solid #E4E9F0;
+$inputlabel: #96A4B8;
+
+/*
+// Variables must come before the import
+$btn-letter-spacing: 0;
+$btn-font-weight: 400;
+$list-item-title-font-size: 0.929rem;
+$list-item-dense-title-font-size: 0.929rem;
+$list-item-dense-title-font-weight: initial;
+$fab-icon-sizes: (
+  'small': 20
+);
+$btn-sizes: (
+  'default': 41,
+  'large': 54
+);
+
+$headings: (
+  'h1': (
+    'size': 3.3125rem,
+    'line-height': 1.15em
+  ),
+  'h2': (
+    'size': 2.25rem,
+    'line-height': 1.5em
+  )
+);
+*/
